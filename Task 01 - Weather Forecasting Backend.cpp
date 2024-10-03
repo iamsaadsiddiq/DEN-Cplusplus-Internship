@@ -26,7 +26,7 @@ public:
     WeatherVariable(double temp = 0.0, double wind = 0.0) : temperature(temp), windSpeed(wind) {}
 
     void display() const {
-        cout << "Temperature: " << temperature << "°C, Wind Speed: " << windSpeed << " m/s" << endl;
+        cout << "Temperature: " << temperature << "Â°C, Wind Speed: " << windSpeed << " m/s" << endl;
     }
 };
 
